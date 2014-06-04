@@ -1,0 +1,1 @@
+Please pass configuration file as argument

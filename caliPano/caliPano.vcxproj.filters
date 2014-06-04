@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\OpenSURF">
+      <UniqueIdentifier>{ebb0c73e-35a6-4580-b58e-98b89505adf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenSURF">
+      <UniqueIdentifier>{08f8375c-32b2-412e-a910-23e876aa4dff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSURF\fasthessian.cpp">
+      <Filter>Source Files\OpenSURF</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSURF\integral.cpp">
+      <Filter>Source Files\OpenSURF</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSURF\ipoint.cpp">
+      <Filter>Source Files\OpenSURF</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSURF\surf.cpp">
+      <Filter>Source Files\OpenSURF</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenSURF\utils.cpp">
+      <Filter>Source Files\OpenSURF</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>Source Files\OpenSURF</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CLinkedIpoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeaturesSurf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSURF\fasthessian.h">
+      <Filter>Header Files\OpenSURF</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSURF\integral.h">
+      <Filter>Header Files\OpenSURF</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSURF\ipoint.h">
+      <Filter>Header Files\OpenSURF</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSURF\kmeans.h">
+      <Filter>Header Files\OpenSURF</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSURF\surf.h">
+      <Filter>Header Files\OpenSURF</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSURF\surflib.h">
+      <Filter>Header Files\OpenSURF</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenSURF\utils.h">
+      <Filter>Header Files\OpenSURF</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="featuresio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Report.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="panoConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
